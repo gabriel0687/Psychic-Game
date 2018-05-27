@@ -32,7 +32,7 @@ var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 		
 	}
 
-	var html = "<p><h1>The Psychic Game</h1></p>" + "<p><h4>Guess what letter I\'m thinking of</h4></p>" + "<p><h4>Wins: " + wins + "</h4></p>" + "<p><h4>Losses: " + losses + "</h4></p>" + "<p><h4>Guesses Left: " + guessesLeft + "</h4></p>" + "<p><h4>Your guesses so far: " + guessesSoFar + "</h4></p>";
+	var html = "<p><h1>The Psychic Game</h1></p>" + "<p><h3>Guess what letter I'm thinking of</h3></p>" + "<p><h3>Wins: " + wins + "</h3></p>" + "<p><h3>Losses: " + losses + "</h3></p>" + "<p><h3>Guesses Left: " + guessesLeft + "</h3></p>" + "<p><h3>Your guesses so far: " + guessesSoFar + "</h3></p>";
 	document.querySelector("#game").innerHTML = html;
 
 }
